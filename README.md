@@ -1,4 +1,4 @@
-# Blue-VR corporate site profile
+# Blue-VR ProcessWire site profile
 
 Blue-VR is a ProcessWire site profile based on Bootstrap 3.1
 

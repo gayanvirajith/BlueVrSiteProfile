@@ -52,7 +52,7 @@ Hi, I am Gayan Virajith. Please send your questions/feedback/bugs to gayanviraji
 #### Local environment used
 
  * ProcessWire 2.4
- * Operating system Ubuntu
+ * Operating system Ubuntu 12.04
  * PHP 5.3.10
  * Server version Apache/2.2.22
 

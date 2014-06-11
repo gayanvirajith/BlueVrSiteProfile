@@ -1,0 +1,27 @@
+@media (max-width: 767px) {
+  body {
+    padding-top: 45px;
+  }
+  .navbar-collapse {
+    background-color: #FFF;
+  }
+  .navbar-default {
+    height: 45px;
+    padding-top: 0px;
+  }
+  .hero-unit {
+    padding: 40px 0;
+  }
+  .hero-unit p {
+    font-size: 1.3em;
+  }
+}
+/* Smartphones (portrait) ----------- */
+@media (min-width: 1200px) {
+  .hiding {
+    opacity: 0;
+  }
+  .visible {
+    opacity: 1;
+  }
+}

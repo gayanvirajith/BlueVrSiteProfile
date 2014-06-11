@@ -1,0 +1,3 @@
+This ProcessWire module produces a drop down list (via a "select" input) that would allow you to define a list of options in the field's configuration from which to select a value.
+
+After installing, you'll have a new "Select" fieldtype that will allow you to define the items you'd like in the drop down. You'll be able to define these options in a text box on the field's configuration screen. Just put each option on it's own line.

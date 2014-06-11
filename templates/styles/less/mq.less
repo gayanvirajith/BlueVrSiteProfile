@@ -1,0 +1,51 @@
+@import "color";
+
+@import "device-settings";
+
+@screen-sm:768px;
+@screen-md:992px;
+@screen-lg:1200px;
+
+@media (max-width: @screen-xs-max) {
+  body {
+    padding-top: 45px;
+  }
+  .navbar-collapse {
+    background-color: #FFF;
+  }
+
+  .navbar-default
+  {
+    height:45px;
+    padding-top: 0px;
+
+  }
+
+  .hero-unit {
+    padding: 40px 0;
+    p {font-size: 1.3em;}
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+}
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+
+}
+
+@media (min-width: @screen-md) and (max-width: @screen-md-max) {
+
+}
+@media (min-width: @screen-lg) {
+
+  .hiding {
+    opacity: 0;
+  }
+  .visible {
+    opacity: 1;
+  }
+}
+
+

@@ -1,0 +1,29 @@
+// Round corners default 5px
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+// Css transitions default delay would be 0.2 seconds
+.make-transitions(@prop, @seconds: 0.2s) {
+  -webkit-transition: @prop @seconds ease-in;
+  -moz-transition: @prop @seconds ease-in;
+  -o-transition: @prop @seconds ease-in;
+  transition: @prop @seconds ease-in;
+}
+
+// Css transitions with dynamic parameters
+.make-transitions-with(@prop, @animate: ease-in, @seconds: 0.2s) {
+  -webkit-transition: @prop @seconds @animate;
+  -moz-transition: @prop @seconds @animate;
+  -o-transition: @prop @seconds @animate;
+  transition: @prop @seconds @animate;
+}
+
+// make div centered by margin : 0 auto;
+.margin-zero-auto {
+  margin: 0 auto;
+}

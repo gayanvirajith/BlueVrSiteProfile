@@ -51,10 +51,10 @@ Hi, I am Gayan Virajith. Please send your questions/feedback/bugs to gayanviraji
 
 #### Local environment used
 
- * ProcessWire 2.4
- * Operating system Ubuntu 12.04
- * PHP 5.3.10
- * Server version Apache/2.2.22
+ * ProcessWire 2.5
+ * Operating system Ubuntu 14.04 LTS
+ * PHP 5.5
+ * Server version Apache/2.4.7
 
 #### Credits
 

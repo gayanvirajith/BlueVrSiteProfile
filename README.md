@@ -1,17 +1,17 @@
 # Blue-VR ProcessWire site profile
 
-Blue-VR is a ProcessWire site profile based on Bootstrap 3.1
+Blue-VR is a ProcessWire site profile based on Bootstrap 3.x
 
 ## About the Blue-VR site profile
 
 We named this profile as Blue-VR. This site profile was made by Gayan Virajith. Profile can be used 
-with ProcessWire open source CMS/CMF version 2.3+. The front-end uses the Bootstrap 3.1 css framework 
+with ProcessWire open source CMS/CMF version 2.3+. The front-end uses the Bootstrap 3.x css framework 
 for to get the responsiveness and mobile friendliness.
 
 ### Overall features
 
  * HTML5 & CSS3 + ({less})
- * Build with bootstrap 3.1
+ * Build with bootstrap 3.x
  * SEO Friendly
  * Clean & modern design
  * Responsive markup

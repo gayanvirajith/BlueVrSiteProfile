@@ -5,7 +5,7 @@ Blue-VR is a ProcessWire site profile based on Bootstrap 3.x
 ## About the Blue-VR site profile
 
 We named this profile as Blue-VR. This site profile was made by Gayan Virajith. Profile can be used 
-with ProcessWire open source CMS/CMF version 2.3+. The front-end uses the Bootstrap 3.x css framework 
+with ProcessWire open source CMS/CMF version 2.5+. The front-end uses the Bootstrap 3.x css framework 
 for to get the responsiveness and mobile friendliness.
 
 ### Overall features
@@ -15,29 +15,16 @@ for to get the responsiveness and mobile friendliness.
  * SEO Friendly
  * Clean & modern design
  * Responsive markup
- * Contact form and google map locations with multiple google markers
+ * Contact form and Google map locations with multiple markers
  * Testimonials using bxSlider
  * AIOM supports (Just install the module no need to touch the code)
 
 ### How to install
 
-Please take a copy of the [latest ProcessWire](http://processwire.com/download/). 
-Replace the *install*, *modules* and *templates* directories with those in 
-this profile, as shown below: 
-
-- /site-default/install/
-- /site-default/modules/
-- /site-default/templates/ 
-
-Make sure you do following steps as well
-
- 1. Add `tinymce` directory into /site-defaut.
- 2. Add the following two lines to your `/site/config.php` file: 
-
-```
-$config->prependTemplateFile = '_init.php';
-$config->appendTemplateFile = '_main.php';
-```
+1. Please take a copy of the [latest ProcessWire](http://processwire.com/download/).
+2. Download or clone this repositpory. 
+3. Rename it as `site-blue-vr`.
+4. Follow the install guide and select the site-blue-vr as the site profile during the installation. 
 
 ### Screenshots
 
@@ -45,9 +32,11 @@ $config->appendTemplateFile = '_main.php';
 
 ![Mobile screenshot](https://raw.githubusercontent.com/gayanvirajith/BlueVrSiteProfile/master/blue-vr-home-mobile.jpg "Mobile screen")
 
-#### Help / Feedback
+### Need Help?
 
-Hi, I am Gayan Virajith. Please send your questions/feedback/bugs to gayanvirajith@gmail.com. I am glad to support.
+Please submit as an 
+[issue](https://github.com/gayanvirajith/BlueVrSiteProfile/issues/new), I am happy 
+to response back.
 
 #### Local environment used
 

@@ -24,7 +24,7 @@ for to get the responsiveness and mobile friendliness.
 1. Please take a copy of the [latest ProcessWire](http://processwire.com/download/).
 2. Download or clone this repositpory into your document root (project root). 
 3. Rename it as `site-blue-vr`.
-4. Follow the install guide and select the site-blue-vr as the site profile during the installation. 
+4. Follow the install guide and select site-blue-vr as your site profile during the installation. 
 
 ### Screenshots
 

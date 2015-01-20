@@ -22,9 +22,6 @@ if(!$useDone) return;
 /**********************************************************************************************/
 
 ?><!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php echo $seoMetaDescription ?>">
     <title><?php echo $browserTitle; ?></title>
@@ -41,8 +38,9 @@ if(!$useDone) return;
                 'styles/mq.css')
         ); ?>">
     <?php else: ?>
-        <link rel="stylesheet" href="<?php echo $config->urls->templates?>styles/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo $config->urls->templates?>styles/font-awesome.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo $config->urls->templates?>styles/flexslider.css">
         <link rel="stylesheet" href="<?php echo $config->urls->templates?>styles/flat-theme.css">
         <link rel="stylesheet" href="<?php echo $config->urls->templates?>styles/animate.css">
@@ -55,9 +53,6 @@ if(!$useDone) return;
     <script src="<?php echo $config->urls->templates?>/scripts/respond.min.js"></script>
     <script src="<?php echo $config->urls->templates?>/scripts/html5shiv.js"></script>
     <![endif]-->
-
-    <!-- Google web fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -131,26 +126,26 @@ if(!$useDone) return;
         )); ?>">
     </script>
 <?php else: ?>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/jquery.m.js"></script>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/jquery.flexslider.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/jquery.appear.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/smoothscroll.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/jquery.functions.js"></script>
 <?php endif; ?>
 
-<script type="text/javascript">
-    WebFontConfig = {
-        google: { families: [ 'Open+Sans:300:latin' ] }
+    <script type="text/javascript">
+    var cb = function() {
+      var l = document.createElement('link'); l.rel = 'stylesheet';
+      l.href = 'http://fonts.googleapis.com/css?family=Open+Sans';
+      var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
     };
-    (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-    })(); </script>
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+  </script>
 </body>
 </html>

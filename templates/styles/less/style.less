@@ -17,10 +17,13 @@ Version: 1.0
  *
  */
 body {
-  font: normal normal 300 15px/18px 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-shadow: none;
   color: @color-black-lighter;
   padding-top: 65px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
 }
 
 h1,h2,h3,h4,h4,h5,h6 {font-family: 'Open Sans', sans-serif;}
@@ -182,7 +185,7 @@ h1,h2,h3,h4,h4,h5,h6 {font-family: 'Open Sans', sans-serif;}
  */
 .body-content-wrap {
   border-bottom: 1px solid #f5f5f5;
-
+  min-height: 400px;
   h1 {
     margin-top: 0;
     .typography-h1;
@@ -222,6 +225,7 @@ h1,h2,h3,h4,h4,h5,h6 {font-family: 'Open Sans', sans-serif;}
  *
  */
 .feature-set-wrapper {
+
   background-color: #f5f5f5; ;
   border: 1px solid #f5f5f5; ;
   padding: 50px 0 40px 0;
@@ -252,7 +256,7 @@ h1,h2,h3,h4,h4,h5,h6 {font-family: 'Open Sans', sans-serif;}
   h3 {
     .typography-h3;margin-top: 5px;height: 26px;overflow: hidden;
     @media (max-width: @screen-xs-max) {
-      height: 25px;
+      height: 30px;
     }
   }
 }

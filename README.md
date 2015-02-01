@@ -42,7 +42,7 @@ to response back.
 
 0.3
 
-- Fix issue #1 - undefined $siteSetting variable notice.
+- BugFix [#1](https://github.com/gayanvirajith/BlueVrSiteProfile/issues/1) - undefined $siteSetting variable notice. Thanks to [Processwire Forum](https://processwire.com/talk/topic/6647-blue-vr-processwire-site-profile/#entry86685) member [Mont](https://processwire.com/talk/user/2755-mont/). 
 
 0.2
 

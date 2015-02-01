@@ -24,7 +24,7 @@ $homepage = $pages->get('/');
 $browserTitle = ($homepage->seo_title)? $homepage->seo_title : $page->title;
 if ($page->seo_title) $browserTitle = $page->get('seo_title');
 
-$seoMetaDescription = ($homepage->seo_meta_description)? $siteSetting->seo_meta_description : "";
+$seoMetaDescription = ($homepage->seo_meta_description)? $homepage->seo_meta_description : "";
 if ($page->seo_meta_description) $seoMetaDescription = $page->seo_meta_description;
 
 $headline = $page->get('headline|title');

@@ -38,6 +38,20 @@ Please submit as an
 [issue](https://github.com/gayanvirajith/BlueVrSiteProfile/issues/new), I am happy 
 to response back.
 
+##Changelog
+
+0.3
+
+- Fix issue #1 - undefined $siteSetting variable notice.
+
+0.2
+
+- Make Processwire 2.5 compatible
+
+0.1
+
+- Initial release
+
 #### Local environment used
 
  * ProcessWire 2.5

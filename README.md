@@ -40,15 +40,15 @@ to response back.
 
 ##Changelog
 
-0.3
+v0.3
 
 - BugFix [#1](https://github.com/gayanvirajith/BlueVrSiteProfile/issues/1) - undefined $siteSetting variable notice. Thanks to [Processwire Forum](https://processwire.com/talk/topic/6647-blue-vr-processwire-site-profile/#entry86685) member [Mont](https://processwire.com/talk/user/2755-mont/). 
 
-0.2
+v0.2
 
 - Make Processwire 2.5 compatible
 
-0.1
+v0.1
 
 - Initial release
 

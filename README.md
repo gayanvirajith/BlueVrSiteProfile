@@ -1,6 +1,8 @@
 # Blue-VR ProcessWire site profile
 
-Blue-VR is a ProcessWire site profile for corporate or personal website
+Blue-VR is a ProcessWire site profile for corporate or personal website.
+
+Demo - [bluevr.webcreate.lk](bluevr.webcreate.lk)
 
 ## About the Blue-VR site profile
 

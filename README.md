@@ -4,6 +4,8 @@ Blue-VR is a ProcessWire site profile for corporate or personal website.
 
 Demo - [bluevr.webcreate.lk](http://bluevr.webcreate.lk)
 
+Processwire admin demo - [bluevr.webcreate.lk/processwire](http://bluevr.webcreate.lk/processwire) (The username `admin` and password `bluevr2`)
+
 ## About the Blue-VR site profile
 
 We named this profile as Blue-VR. This site profile was made by Gayan Virajith. Profile can be used 
